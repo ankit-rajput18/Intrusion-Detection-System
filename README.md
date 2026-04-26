@@ -38,7 +38,14 @@ Captures network traffic
 🧪 Attack simulation
 🏗️ **Architecture**
 
-![System Architecture](./architecture.png)
+```mermaid
+graph LR
+A[ESP32 Sensor] --> B[Backend API]
+B --> C[ML Model]
+C --> D[Dashboard]
+B --> E[Logs]
+A --> F[Buzzer Alert]
+```
 
 The architecture consists of:
 - **ESP32 Sensor**: Collects temperature and humidity data, sends to backend, and triggers buzzer alerts on anomaly detection.
