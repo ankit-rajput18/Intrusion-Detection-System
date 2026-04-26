@@ -67,31 +67,47 @@ Invoke-RestMethod -Method Post -Uri "http://127.0.0.1:8000/sensor" -ContentType 
 - On ESP32 serial: `flood on`
 - Or script rapid POSTs to `/sensor`
 
-🚀 Quick Start
-1️⃣ Clone Repo
-git clone https://github.com/your-username/ids-system.git
-cd ids-system
-2️⃣ Install
-pip install -r requirements.txt
-3️⃣ Run Backend
-uvicorn main:app --reload
-4️⃣ Run Dashboard
-streamlit run app.py
-🧪 Run Attacks
-python scan_traffic.py
-python slow_traffic.py
-python burst_traffic.py
-⚠️ Requirements
-Python 3.x
-ESP32
-DHT11 Sensor
-📁 Project Structure
+🚀 **Quick Start**
+
+1. **Clone Repo**
+   ```bash
+   git clone https://github.com/your-username/ids-system.git
+   cd ids-system
+   ```
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run Backend**
+   ```bash
+   uvicorn main:app --reload
+   ```
+4. **Run Dashboard**
+   ```bash
+   streamlit run app.py
+   ```
+5. **Run Attacks (for testing)**
+   ```bash
+   python scan_traffic.py
+   python slow_traffic.py
+   python burst_traffic.py
+   ```
+
+⚠️ **Requirements**
+- Python 3.x
+- ESP32
+- DHT11 Sensor
+
+📁 **Project Structure**
+```
 ids-system/
 │── backend/
 │── dashboard/
 │── esp32/
 │── models/
 │── attacks/
+```
+
 📊 **Results & Capabilities**
 
 - ✔ Detects multiple network attacks (Port Scan, Slowloris, DoS)
