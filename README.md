@@ -4,32 +4,21 @@
 
 An IoT + Machine Learning based Intrusion Detection System that monitors network traffic and sensor data to detect cyber-attacks and anomalies in real-time.
 
-🎯 Objectives
-<details> <summary>Click to expand</summary>
-Real-time intrusion detection
-Machine learning-based attack analysis
-Sensor monitoring (Temperature & Humidity)
-Dashboard visualization
-Attack simulation for testing
-</details>
-🧩 System Components
-<details> <summary>Click to expand</summary>
-🔹 IoT Module
-ESP32 + DHT11
-Sends sensor data
-Buzzer alert system
-🔹 Backend
-FastAPI server
-Handles API + ML inference
-🔹 Machine Learning
-Trained on TON-IoT dataset
-Detects abnormal behavior
-🔹 Dashboard
-Streamlit UI
-Real-time monitoring
-🔹 Packet Profiler
-Captures network traffic
-</details>
+🎯 **Objectives**
+
+- Real-time intrusion detection
+- Machine learning-based attack analysis
+- Sensor monitoring (Temperature & Humidity)
+- Dashboard visualization
+- Attack simulation for testing
+
+🧩 **System Components**
+
+- **IoT Module**: ESP32 + DHT11, sends sensor data, buzzer alert system
+- **Backend**: FastAPI server, handles API + ML inference
+- **Machine Learning**: Trained on TON-IoT dataset, detects abnormal behavior
+- **Dashboard**: Streamlit UI, real-time monitoring
+- **Packet Profiler**: Captures network traffic
 ⚙️ Features
 ⚡ Real-time detection
 🌐 Network attack monitoring
