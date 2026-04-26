@@ -1,0 +1,2 @@
+timestamp,round,duration_seconds,endpoint_paths,request_rate,workers,sent,ok,fail
+2026-04-25T14:15:47,1,20,/health|/events?limit=20,60.0,20,1167,1167,0
